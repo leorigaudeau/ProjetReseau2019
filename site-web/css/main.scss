@@ -1,0 +1,118 @@
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    nav {
+        width: 100%;
+        height: 1.4vh;
+        background-color: #283e4a;
+    }
+
+    //CONTENT
+
+    .content {
+        width: 90%;
+        height: 88.6vh;
+        margin-left: 5%;
+        .con-title {
+            padding-top: 5%;
+            text-align: center;
+            .logo {
+                width: 100px;
+                height: auto;
+            }
+        }
+        .con-subtitle {
+            font-size: 1.5rem;
+            text-align: center;
+            p {
+                margin: 0 auto;
+            }
+        }
+        .con-description {
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 3%;
+            p {
+                font-size: 1.1rem;
+                color: grey;
+            }
+        }
+        .con-form {
+            width: 380px;
+            height: 38%;
+            margin: auto;
+            form {
+                width: 100%;
+                height: 100%;
+            }
+            .inputbasic {
+                width: 90%;
+                padding: 12px;
+                border: 1.4px solid;
+                background-color: white;
+                outline: none;
+                margin-bottom: 5%;
+                border: 1px solid rgb(77, 77, 77);
+                border-radius: 1.5px;
+                font-size: 1.2rem;
+                font-family: 'Raleway', sans-serif;
+                color: black;
+            }
+            input:hover {
+                border: 1.4px solid black;
+            }
+            input:focus {
+                border: 2px solid #0073b1;
+            }
+            #submit {
+                width: 97%;
+                padding: 13px;
+                background-color: #0073b1;
+                border: none;
+                border-radius: 2px;
+                color: white;
+                font-family: 'Raleway', sans-serif;
+                font-size: 1rem;
+            }
+            #submit:hover {
+                background-color: rgb(1, 81, 124);
+                cursor: pointer;
+            }
+        }
+        .con-mdp {
+            margin-top: -2.5%;
+            .blue {
+                color: #0073b1;
+            }
+            text-align: center;
+            padding: 1%;
+        }
+    }
+
+    //FOOTER
+
+    footer {
+        width: 100%;
+        height: 10vh;
+        border-top: 0.1px solid lightgrey;
+        .footer-pos {
+            width: 90%;
+            max-height: 10vh;
+            margin-left: 5%;
+            display: flex;
+            justify-content: space-evenly;
+            .logo {
+                width: 60px;
+                height: 7vh;
+                margin-top: 12px;
+            }
+            p{
+                font-size: 0.8rem;
+                margin-top: 25px;
+            }
+        }
+    }
+}
