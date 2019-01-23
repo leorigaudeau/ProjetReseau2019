@@ -67,6 +67,9 @@ body {
             input:focus {
                 border: 2px solid #0073b1;
             }
+            input::placeholder{
+                color: black;
+            }
             #submit {
                 width: 97%;
                 padding: 13px;

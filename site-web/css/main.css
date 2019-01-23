@@ -94,6 +94,26 @@ body .content .con-form input:focus {
   border: 2px solid #0073b1;
 }
 
+html .content .con-form input::-webkit-input-placeholder,
+body .content .con-form input::-webkit-input-placeholder {
+  color: black;
+}
+
+html .content .con-form input:-ms-input-placeholder,
+body .content .con-form input:-ms-input-placeholder {
+  color: black;
+}
+
+html .content .con-form input::-ms-input-placeholder,
+body .content .con-form input::-ms-input-placeholder {
+  color: black;
+}
+
+html .content .con-form input::placeholder,
+body .content .con-form input::placeholder {
+  color: black;
+}
+
 html .content .con-form #submit,
 body .content .con-form #submit {
   width: 97%;
