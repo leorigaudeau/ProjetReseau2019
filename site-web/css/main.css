@@ -148,7 +148,7 @@ html .content .con-form #submit-false,
 body .content .con-form #submit-false {
   width: 97%;
   padding: 13px;
-  background-color: #009beb;
+  background-color: #2cfc3b;
   border: none;
   border-radius: 2px;
   color: white;
@@ -190,7 +190,7 @@ body .content .con-mdp {
 
 html .content .con-mdp .blue,
 body .content .con-mdp .blue {
-  color: #009beb;
+  color: #2cfc3b;
 }
 
 html footer,
