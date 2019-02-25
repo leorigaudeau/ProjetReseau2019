@@ -6,7 +6,7 @@ import time
 
 # Demande a l'utilisateur des infos sur la victime
 try:
-    interface = raw_input("[*] Entre l'interface désiré: ")
+    interface = raw_input"[*] Entre l'interface désiré: "
     victimIP = raw_input("[*] Entre l'IP de la victime: ")
     gateIP = raw_input("[*] Entre l'IP routeur: ")
 except KeyboardInterrupt:
