@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 # Import des modules
 from scapy.all import *
 import sys
