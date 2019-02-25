@@ -8,7 +8,7 @@ import time
 
 # Demande a l'utilisateur des infos sur la victime
 try:
-    interface = input("[*] Entre l'interface désiré: ")
+    interface = eth0
     victimIP = input("[*] Entre l'IP de la victime: ")
     gateIP = input("[*] Entre l'IP routeur: ")
 except KeyboardInterrupt:
