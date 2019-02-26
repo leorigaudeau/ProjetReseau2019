@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 # Import des modules
-from scapy.all import *
 import sys
 import os
 import time
+from scapy.all import *
 
 # Demande a l'utilisateur des infos sur la victime
 try:
-    interface = eth0
+    interface = input("[*] Entre l'interface: ")
     victimIP = input("[*] Entre l'IP de la victime: ")
     gateIP = input("[*] Entre l'IP routeur: ")
 except KeyboardInterrupt:
