@@ -8,9 +8,10 @@ from scapy.all import *
 
 # Demande a l'utilisateur des infos sur la victime
 try:
-    interface = input("[*] Entre l'interface: ")
-    victimIP = input("[*] Entre l'IP de la victime: ")
-    gateIP = input("[*] Entre l'IP routeur: ")
+    interface = raw_input("[*] Entre l'interface: ")
+    victimIP = raw_input("[*] Entre l'IP de la victime: ")
+    gateIP = raw_input("[*] Entre l'IP routeur: ")
+    print(interface,victimIP, gateIP)
 except KeyboardInterrupt:
     print ("\n[*] demande de fermeture de l'utilisateur")
     print ("[*] Quitter ...")
