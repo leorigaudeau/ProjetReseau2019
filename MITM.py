@@ -11,7 +11,6 @@ try:
     interface = raw_input("[*] Entre l'interface: ")
     victimIP = raw_input("[*] Entre l'IP de la victime: ")
     gateIP = raw_input("[*] Entre l'IP routeur: ")
-    print(interface,victimIP, gateIP)
 except KeyboardInterrupt:
     print ("\n[*] demande de fermeture de l'utilisateur")
     print ("[*] Quitter ...")
